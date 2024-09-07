@@ -1,2 +1,2 @@
-﻿[[0-1 - Slides.pdf|Voir ou télécharger le PDF]]
-![[0-1 - Slides.pdf]]
+﻿[[./0-1 - Slides.pdf|Voir ou télécharger le PDF]]
+![[./0-1 - Slides.pdf]]

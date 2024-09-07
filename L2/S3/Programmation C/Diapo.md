@@ -1,2 +1,2 @@
-﻿[[Diapo.pdf|Voir ou télécharger le PDF]]
-![[Diapo.pdf]]
+﻿[[./Diapo.pdf|Voir ou télécharger le PDF]]
+![[./Diapo.pdf]]

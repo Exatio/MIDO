@@ -1,2 +1,2 @@
-﻿[[dev.pdf|Voir ou télécharger le PDF]]
-![[dev.pdf]]
+﻿[[./dev.pdf|Voir ou télécharger le PDF]]
+![[./dev.pdf]]

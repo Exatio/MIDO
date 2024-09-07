@@ -1,2 +1,2 @@
-﻿[[CM.pdf|Voir ou télécharger le PDF]]
-![[CM.pdf]]
+﻿[[./CM.pdf|Voir ou télécharger le PDF]]
+![[./CM.pdf]]

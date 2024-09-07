@@ -1,2 +1,2 @@
-﻿[[Fiche - intégrale généralisées.pdf|Voir ou télécharger le PDF]]
-![[Fiche - intégrale généralisées.pdf]]
+﻿[[./Fiche - intégrale généralisées.pdf|Voir ou télécharger le PDF]]
+![[./Fiche - intégrale généralisées.pdf]]

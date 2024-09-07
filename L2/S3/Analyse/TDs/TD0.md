@@ -1,2 +1,2 @@
-﻿[[TD0.pdf|Voir ou télécharger le PDF]]
-![[TD0.pdf]]
+﻿[[./TD0.pdf|Voir ou télécharger le PDF]]
+![[./TD0.pdf]]

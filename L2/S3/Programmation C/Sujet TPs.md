@@ -1,2 +1,2 @@
-﻿[[Sujet TPs.pdf|Voir ou télécharger le PDF]]
-![[Sujet TPs.pdf]]
+﻿[[./Sujet TPs.pdf|Voir ou télécharger le PDF]]
+![[./Sujet TPs.pdf]]

@@ -1,2 +1,2 @@
-﻿[[TD3 Sujet.pdf|Voir ou télécharger le PDF]]
-![[TD3 Sujet.pdf]]
+﻿[[./TD3 Sujet.pdf|Voir ou télécharger le PDF]]
+![[./TD3 Sujet.pdf]]

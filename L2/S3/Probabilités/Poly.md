@@ -1,2 +1,2 @@
-﻿[[Poly.pdf|Voir ou télécharger le PDF]]
-![[Poly.pdf]]
+﻿[[./Poly.pdf|Voir ou télécharger le PDF]]
+![[./Poly.pdf]]

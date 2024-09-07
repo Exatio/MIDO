@@ -1,2 +1,2 @@
-﻿[[SyntheseDeCoursAlgo.pdf|Voir ou télécharger le PDF]]
-![[SyntheseDeCoursAlgo.pdf]]
+﻿[[./SyntheseDeCoursAlgo.pdf|Voir ou télécharger le PDF]]
+![[./SyntheseDeCoursAlgo.pdf]]

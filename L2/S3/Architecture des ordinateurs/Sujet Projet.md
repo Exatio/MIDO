@@ -1,2 +1,2 @@
-﻿[[Sujet Projet.pdf|Voir ou télécharger le PDF]]
-![[Sujet Projet.pdf]]
+﻿[[./Sujet Projet.pdf|Voir ou télécharger le PDF]]
+![[./Sujet Projet.pdf]]
