@@ -25,9 +25,10 @@
 
 ## Exercice 3
 
-![[BDD/TD/TD1 - Modèle relationnel/Exo3.png]]
+![[Exo3.png]]
 
-Le SGBD va refuser l'inserttion du nuplet car ClientID est une clé étrangère faisant référence à la relation Client, qui ne contient pas de client dont le ClientID est de valeur 4.i
+Le SGBD va refuser l'insertion du nuplet car ClientID est une clé étrangère faisant référence à la relation Client, qui ne contient pas de client dont le ClientID est de valeur 4.
+
 ## Exercice 4
 
 ![[Exo4.png]]
