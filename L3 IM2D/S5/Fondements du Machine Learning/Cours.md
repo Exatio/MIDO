@@ -4,11 +4,14 @@ On a un jeu de données $X \in R^{m \times n}$, on veut comprendre sa structure 
 
 ### Sous-espaces fondamentaux
 
-Définition : Pour toute matrice $X \in R^{m \times n}$, on définit :
- - le **noyau** de X : $Ker X = \{ v \in R^n , Xv = 0\}$
- - l'**image** de X : $Im X = \{ u \in R^m , \exists v \in R^n \text{ tel que } u = Xv\}$
+> [!info] Définition
+>Pour toute matrice $X \in R^{m \times n}$, on définit :
+ >- le **noyau** de X : $Ker X = \{ v \in R^n , Xv = 0\}$
+ >- l'**image** de X : $Im X = \{ u \in R^m , \exists v \in R^n \text{ tel que } u = Xv\}$
 
-Définition : Le **rang** de X est la dimension de $Im X$.
+
+> [!info] Définition
+> Le **rang** de X est la dimension de $Im X$.
 
 Théorème du rang : $\forall X \in R^{n*m}, dim(Ker X) + rg(X) = n$
 
@@ -37,34 +40,36 @@ Avec la bonne base P, X s'écrit $P\begin{pmatrix} 2 & 0 \\ 0 & 1 \end{pmatrix}P
 On revient au cas $X \in R^{m \times n}$ avec m, n quelconques ($\ge 1$)
 Existe-t-il un analogue de la décomposition spectrale dans ce cas général ?
 
-
-#### Propriétés des matrices $XX^T$ et $X^TX$
-
+> [!info] Propriétés des matrices $XX^T$ et $X^TX$
+> 
 - $Ker (X^TX) = Ker (X)$ et $Ker (XX^T) = Ker (X^T)$
 - $Im (X^TX) = Im (X^T)$ et $Im (XX^T) = Im (X)$
-- $rg (X^TX) = rg (X)$ et $rg (XX^T) = rg (X^T)$ 
+- $rg (X^TX) = rg (X)$ et $rg (XX^T) = rg (X^T)$
 
 L'étude de X via ses 4 sous-espaces fondamentaux se ramène à l'étude des matrices symétriques $XX^T$ et $X^TX$, qui ont chacune 2 sous-espaces fondamentaux.
 Cela revient à dire que l'on peut étudier X via les décompositions spectrales de $XX^T$ et $X^TX$
 Les valeurs propres de $XX^T$ et $X^TX$ sont positives ou nulles ($XX^T \ge 0$ et $X^TX \ge 0$)
 
-Théorème (SVD)
-Soit $X \in R^{m \times n}$. Cette matrice admet une décomposition en valeurs singulières de la forme $X = U\Sigma V^T$  avec :
 
-- $U \in R^{m \times m}$, orthogonale ($U^T = U^{-1}$)
-- $V \in R^{n \times n}$, orthogonale ($V^T = V^{-1}$)
-- $\Sigma = \begin{bmatrix} \sigma_1 & 0 & 0 \\ 0 & \sigma_{\min(n,m)} & 0 \\ 0 & 0 & 0\end {bmatrix} \in R^{m \times n}$
-- $\Sigma = (\sigma_{ij})$ avec $\sigma_{ij} = 0$ si $i \neq j$ et $\sigma_{ii} = \sigma_{i} \ge 0$
+> [!info] Théorème (SVD)
+> Soit $X \in R^{m \times n}$. Cette matrice admet une décomposition en valeurs singulières de la forme $X = U\Sigma V^T$  avec :
+> - $U \in R^{m \times m}$, orthogonale ($U^T = U^{-1}$)
+> - $V \in R^{n \times n}$, orthogonale ($V^T = V^{-1}$)
+> - $\Sigma = \begin{bmatrix} \sigma_1 & 0 & 0 \\ 0 & \sigma_{\min(n,m)} & 0 \\ 0 & 0 & 0\end {bmatrix} \in R^{m \times n}$
+> - $\Sigma = (\sigma_{ij})$ avec $\sigma_{ij} = 0$ si $i \neq j$ et $\sigma_{ii} = \sigma_{i} \ge 0$
+> 
+> Colonnes de U : vecteurs singuliers à gauche
+> Colonnes de V : vecteurs singuliers à droite
+> Coefficients diagonaux de $\Sigma$ : $\sigma_1$, ..., $\sigma_n$ (en général on les ordonne : $\sigma_1 \ge ... \ge \sigma_n$)
 
-Colonnes de U : vecteurs singuliers à gauche
-Colonnes de V : vecteurs singuliers à droite
-Coefficients diagonaux de $\Sigma$ : $\sigma_1$, ..., $\sigma_n$ (en général on les ordonne : $\sigma_1 \ge ... \ge \sigma_n$)
 
-
-#### Propriétés de la SVD
-i) Le rang de X est le nombre de valeurs singulières non nulles ($rg(X) \leq min(m,n)$)
+> [!info] Propriétés (SVD)
+> i) Le rang de X est le nombre de valeurs singulières non nulles ($rg(X) \leq min(m,n)$)
+> 
 ii) Les carrés des valeurs singulières de X ($\sigma_{1}^2 \geq \dots \geq \sigma_{min(m,n)}$) sont valeurs propres de $X^TX$ et $XX^T$
+>
 iii) Si $X=U\Sigma V^T$ est une SVD de X, alors $U^T\Sigma^TV$ est une SVD de $X^T$
+
 
 TD: preuve constructive de la SVD.
 
