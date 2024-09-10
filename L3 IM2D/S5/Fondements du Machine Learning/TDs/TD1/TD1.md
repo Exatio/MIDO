@@ -19,6 +19,10 @@
    Donc on a toutes les valeurs propres de $A^TA$, ainsi $Sp(A^TA) = \{ \sigma_{i}^2, i \in [|1,n|]\}$
    Ainsi, les valeurs singulières de A sont les racines des valeurs propres de $A^TA$.
         
-3. azaeaze
+3. On a $rg(A) = rg(A^TA) = r$.
+   Donc $A^TA$ possède $r$ valeurs propres non nulles. Donc, par _b.)_ A admet $r$ valeurs singulières non nulles.
+
+## Exercice 2
+![[Exercice 2.png]]
    
-   
+   1. 
